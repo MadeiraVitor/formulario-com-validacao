@@ -1,0 +1,94 @@
+.container {
+    background-image: url(../imagens/bg-repeat.jpg);
+    height: 100vh;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 50px;
+}
+
+.container .texto {
+    max-width: 300px;
+}
+
+.container .texto h1 {
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 11px;
+}
+
+.container .texto p {
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.container .formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    max-height: 378px;
+    background-color: white;
+    padding: 20px;
+}
+
+.formulario .input {
+    height: 35px;
+}
+
+.formulario .input.mensagem {
+    height: 100px;
+    resize: none;
+}
+
+.formulario .input {
+    width: 298px;
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.container .formulario p {
+    margin-bottom: 7px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario .input::placeholder {
+    font-weight: 700;
+    font-size: 15px;
+    color: #A8A8A8;
+}
+
+.formulario .form .input-enviar {
+    background-color: #3CCC87;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    width: 298px;
+    height: 41px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario .form .campo-obrigatorio {
+    font-size: 8px;
+    font-weight: 400;
+    color: #F52E2E;
+    opacity: 0;
+}
+
+.formulario .form .campo-obrigatorio.nao-preenchido {
+    opacity: 1;
+}
+
+.formulario .form .input.nao-preenchido {
+    border: 1px solid #F52E2E; 
+}
+
+.formulario .form .input.preenchido {
+    border: 1px solid #00C22B;
+}
