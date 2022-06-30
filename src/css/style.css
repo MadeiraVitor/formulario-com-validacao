@@ -3,9 +3,10 @@
     height: 100vh;
     background-size: contain;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 12px 50px;
+    gap: 70px;
+    flex-wrap: wrap;
 }
 
 .container .texto {

@@ -1,0 +1,25 @@
+@media(max-width: 767px){
+    .container {
+        gap: 0;
+    }
+    
+    .container .texto h1 {
+        text-align: center;
+    }
+
+    .container .texto p {
+        text-align: center;
+    }
+
+    .container .formulario {
+        max-width: 300px;
+    }
+
+    .formulario .input {
+        max-width: 258px;
+    }
+
+    .formulario .form .input-enviar {
+        max-width: 258px;
+    }
+}
